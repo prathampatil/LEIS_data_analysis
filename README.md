@@ -1,3 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)\
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+
+
 # LEIS_data_analysis
 This repository deals with the data analysis and plotting protocols used for data from the qTac100 Low Energy Ion Scattering Spectroscopy. The current code can convert all the commas to decimal points and plot the files. This can be done together with ```LEIS_convert_and_plot.py``` or separately using ```commadotconverter.py``` and ```plot_all_leis.py``` respectively. 
 
