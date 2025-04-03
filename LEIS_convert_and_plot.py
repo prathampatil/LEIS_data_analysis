@@ -56,7 +56,7 @@ def plot_all_files(folder_path,c):
                     Y = data['Y']
 
                 if c == 'y':
-                    Y = signal.savgol_filter(Y, 51, 3) # window size 51, polynomial order 3
+                    Y = signal.savgol_filter(Y, 51, 3) # Savitzky-Golay filter window size 51, polynomial order 3
                     print("savgol")
 
                 plt.plot(X,Y,'r')
