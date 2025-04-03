@@ -26,7 +26,7 @@ def plot_all_files(folder_path,c):
 
                 if c == 'y':
                     Y = signal.savgol_filter(Y, 51, 3) # window size 51, polynomial order 3
-                    print("savgol")
+                    print("savgol filter applied")
 
                 plt.plot(X,Y,'r')
                 plt.title(str(filename))
@@ -39,9 +39,9 @@ def plot_all_files(folder_path,c):
                 plt.savefig(os.path.join(folder_path, pltname))
                 plt.close()
                
-                print(f"Processed: {filename}")
+                print(f"Plotted: {filename}")
             except Exception as e:
-                print(f"Error processing {filename}: {e}")
+                print(f"Error plotting {filename}: {e}")
     
 
 if __name__ == "__main__":
