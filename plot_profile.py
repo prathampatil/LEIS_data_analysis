@@ -1,3 +1,4 @@
+# This file is configured for only 2 element profiles. Later updates will come soon
 import os
 import glob
 import pandas as pd
@@ -56,7 +57,7 @@ def main():
         plt.plot(x, y2, marker='o', linestyle='-', label=y2_name)
         plt.xlabel(df.columns[0])
         plt.ylabel("Value")
-        plt.title(f"{base_name} – {y1_name} & {y2_name} vs {df.columns[0]}")
+        plt.title(f"{base_name}")
         plt.legend()
         plt.grid(True)
 

@@ -34,5 +34,6 @@ The update on 20250604 includes a python file for plotting the depth profile fil
 * Select the folder in which all the data is saved
 * It should automatically plot and save all the plots (normal as well as log plots) in the same folder
 * Edit the code accordingly if you want
+* Right now only works for 2 element profiles, will update in the next version
 
 
